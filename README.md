@@ -70,8 +70,8 @@ _Date_ — дата и время создания коммита.
 
 При вызове команды git log вы также могли заметить надпись (HEAD -\> master) после хеша одного из коммитов.
 
-'''
-$ pwd # посмотрели, где мы
+
+'''$ pwd # посмотрели, где мы
 /Users/user/dev/first-project
 
 $ cd .git/
@@ -80,6 +80,5 @@ COMMIT_EDITMSG  ORIG_HEAD  description  index  logs/     refs/
 HEAD            config     hooks/       info/  objects/
 
 $ cat HEAD # команда cat показывает содержимое файла
-ref: refs/heads/master # в файле вот такая ссылка 
-'''
+ref: refs/heads/master # в файле вот такая ссылка '''
 
